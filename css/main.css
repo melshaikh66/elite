@@ -1,0 +1,26 @@
+/*
+theme name : eliteCorp
+theme coder : Mostafa Elshaikh
+first color : #08526d
+second color : #ec1c23
+*/
+/* start upper bar */
+.upper-bar {
+  background-color: #08526d;
+  color: #5b9eb8;
+  padding: 10px
+}
+
+.mail {
+  color: #fff
+}
+
+.upper-btn {
+  background: transparent;
+  border: 1px solid #ec1c23;
+  margin-left: 60px;
+  padding: 5px 10px;
+  color: inherit;
+}
+
+/* end upper bar */
