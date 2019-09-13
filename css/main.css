@@ -5,7 +5,7 @@ first color : #08526d
 second color : #ec1c23
 */
 body {
-  height: 8000px
+  height: 6000px
 }
 
 /* start upper bar */
@@ -312,7 +312,7 @@ body {
 
 .testimonials .carousel-caption {
   top: 50%;
-  margin-top: -250px
+  transform: translateY(-50%);
 }
 
 .testimonials .carousel-caption img {
@@ -333,3 +333,88 @@ body {
 }
 
 /* end testimonials */
+/* start pricing table */
+.pricing-table {
+  padding: 100px 0;
+  background-color: #f7f7f7;
+}
+
+.pricing-table h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px
+}
+
+.pricing-table .description {
+  font-size: 17px;
+  line-height: 1.6;
+  width: 80%;
+  margin: 0 auto 85px;
+  color: #989898;
+}
+
+.pricing-table .card {
+  margin-bottom: 20px;
+}
+
+.pricing-table .card .card-body {
+  padding: 0;
+}
+
+.pricing-tabl .card-subtitle {
+  font-size: 16px
+}
+
+.pricing-table .card .card-title {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #08526d;
+  font-size: 25px;
+  margin-top: 40px
+}
+
+.pricing-table .card .card-text {
+  color: #5b9eb8;
+  font-size: 40px;
+  margin: 30px 0 10px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.pricing-table .card .card-text span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pricing-table .list-group-item {
+  border: none;
+  color: #6c758d
+}
+
+.pricing-table .card .card-link {
+  background-color: #ec1c23;
+  font-weight: bold;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 20px;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-bottom: 50px
+}
+
+.pricing-table .card.Coroprate {
+  position: relative;
+  top: -20px
+}
+
+.pricing-table .card.Coroprate .card-text {
+  background-color: #ec1c23;
+  color: #fff
+}
+
+.pricing-table .card.Coroprate .card-link {
+  background-color: #08526d
+}
+
+/* end pricing table */
