@@ -5,7 +5,7 @@ first color : #08526d
 second color : #ec1c23
 */
 body {
-  height: 7000px
+  height: 8000px
 }
 
 /* start upper bar */
@@ -473,6 +473,93 @@ body {
 .stats p {
   color: #ec1c23;
   font-style: italic;
+  margin: 0
 }
 
 /* end statistics */
+/* start contact us  */
+.contact-us {
+  padding: 80px 0;
+  background-color: #ec1c23;
+  color: #fff;
+  font-size: 20px
+}
+
+.contact-us p {
+  margin: 0;
+  font-size: 24px
+}
+
+.contact-us a {
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 10px;
+  border: 2px solid #fff;
+  font-weight: bold;
+}
+
+/* end contact us  */
+/* start footer */
+.footer {
+  padding: 100px 0
+}
+
+.footer .site-info .footer-logo {
+  font-size: 50px;
+  margin-bottom: 35px
+}
+
+.footer .site-info .footer-logo span:first-child {
+  color: #5b9eb8;
+  font-weight: bold;
+}
+
+.footer .site-info .footer-logo span:last-child {
+  color: #ec1c23
+}
+
+.footer .site-info p {
+  line-height: 2;
+  color: #6c758d
+}
+
+.footer .site-info a {
+  color: #08526d;
+  font-weight: bold;
+  font-size: 15px
+}
+
+.footer .site-info a:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";
+  display: inline-block;
+  margin-right: 5px
+}
+
+.footer .helpful-links h2,
+.footer .contact h2 {
+  font-size: 22px;
+  color: #08526d;
+  margin-bottom: 70px
+}
+
+.footer .helpful-links ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  font-weight: 900;
+  margin-right: 5px;
+  color: #6c758d;
+  font-size: 12px
+}
+
+.footer .helpful-links ul li {
+  color: #08526d;
+  margin-bottom: 5px
+}
+
+.footer .contact ul li {
+  margin-bottom: 24px;
+  color: #08526d;
+}
+
+/* end footer */
