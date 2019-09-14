@@ -5,7 +5,7 @@ first color : #08526d
 second color : #ec1c23
 */
 body {
-  height: 6000px
+  height: 7000px
 }
 
 /* start upper bar */
@@ -395,11 +395,10 @@ body {
 .pricing-table .card .card-link {
   background-color: #ec1c23;
   font-weight: bold;
-  display: inline-block;
+  border: none;
   color: #fff;
-  padding: 5px 20px;
+  padding: 10px 20px;
   letter-spacing: 5px;
-  font-size: 18px;
   margin-bottom: 50px
 }
 
@@ -418,3 +417,62 @@ body {
 }
 
 /* end pricing table */
+/* start choose us */
+.choose-us img {
+  max-width: 100%
+}
+
+.choose-us .col-6 {
+  padding: 0;
+}
+
+.choose-us .col-6:last-child {
+  background-color: #08526d;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.choose-us .h1 {
+  margin: 40px
+}
+
+.choose-us p {
+  margin: 40px;
+  line-height: 2;
+  font-size: 16px
+}
+
+.choose-us a {
+  background-color: #ec1c23;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border: none;
+  margin: 40px
+}
+
+/* end choose us */
+/* start statistics */
+.stats {
+  padding: 100px 0;
+  color: #08526d
+}
+
+.stats .stats-box {
+  margin-bottom: 40px
+}
+
+.stats .number {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.stats p {
+  color: #ec1c23;
+  font-style: italic;
+}
+
+/* end statistics */
