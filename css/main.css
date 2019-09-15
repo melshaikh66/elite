@@ -132,12 +132,6 @@ second color : #ec1c23
   background-size: cover;
 }
 
-@media (max-width: 768px) {
-  .carousel-item {
-    margin: 0
-  }
-}
-
 .slider .carousel-one {
   background-image: url("../images/slider/01.jpg");
 }
@@ -282,6 +276,12 @@ second color : #ec1c23
   transition: all .3s ease-in-out;
 }
 
+@media (max-width: 992px) {
+  .featured-work ul li {
+    margin-right: 10px
+  }
+}
+
 .featured-work ul li.active,
 .featured-work ul li:hover {
   background-color: #ec1c23;
@@ -373,6 +373,10 @@ second color : #ec1c23
 .testimonials .container {
   position: relative;
   z-index: 20
+}
+
+@media (max-width: 768px) {
+  .testimonials
 }
 
 .testimonials .carousel-caption {
@@ -574,6 +578,12 @@ second color : #ec1c23
   font-size: 24px
 }
 
+@media (max-width: 768px) {
+  .contact-us p {
+    margin: 30px;
+  }
+}
+
 .contact-us a {
   color: #fff;
   letter-spacing: 2px;
@@ -646,6 +656,18 @@ second color : #ec1c23
   color: #08526d;
 }
 
+@media (max-width: 992px) {
+
+  .footer .helpful-links h2,
+  .footer .contact h2 {
+    margin: 20px 0
+  }
+
+  .footer .contact ul li {
+    margin-bottom: 5px
+  }
+}
+
 /* end footer */
 /* start copyright */
 .copyright {
@@ -665,6 +687,12 @@ second color : #ec1c23
   display: inline-block;
   margin-left: 20px;
   color: #83898b
+}
+
+@media (max-width: 576px) {
+  .copyright .rights {
+    margin-bottom: 20px
+  }
 }
 
 /* end copyright */
