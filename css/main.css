@@ -4,32 +4,44 @@ theme coder : Mostafa Elshaikh
 first color : #08526d
 second color : #ec1c23
 */
-body {
-  height: 8000px
-}
-
 /* start upper bar */
 .upper-bar {
   background-color: #08526d;
   color: #5b9eb8;
-  padding: 10px
 }
 
 .mail {
   color: #fff
 }
 
+.upper-bar .info {
+  margin: 15px 0
+}
+
+@media (max-width: 576px) {
+  .upper-bar .info {
+    margin-bottom: 0
+  }
+}
+
+.get-quote {
+  margin: 15px 0;
+  font-size: 13px
+}
+
 .upper-btn {
   border: 1px solid #ec1c23;
-  margin-left: 60px;
   padding: 5px 10px;
+  margin-left: 20px;
   color: inherit;
   display: inline-block;
 }
 
-.get-quote {
-  margin-left: 410px;
-  font-size: 13px
+@media (max-width: 576px) {
+  .upper-btn {
+    border: none;
+    margin-left: 5px
+  }
 }
 
 /* end upper bar */
@@ -66,6 +78,12 @@ body {
   justify-content: left
 }
 
+@media (max-width: 768px) {
+  .slider .carousel-inner {
+    justify-content: center;
+  }
+}
+
 .slider .carousel-inner h1 {
   position: absolute;
   z-index: 3;
@@ -74,6 +92,21 @@ body {
   max-width: 900px;
   line-height: 1.5;
   left: 100px
+}
+
+@media (max-width: 768px) {
+  .slider .carousel-inner h1 {
+    font-size: 40px;
+    max-width: 100%;
+    left: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .slider .carousel-inner h1 {
+    font-size: 50px;
+  }
 }
 
 .slider .carousel-inner h1 span {
@@ -97,6 +130,12 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    margin: 0
+  }
 }
 
 .slider .carousel-one {
@@ -155,12 +194,25 @@ body {
   margin-bottom: 30px
 }
 
+@media (max-width: 992px) {
+  .overview h2 {
+    font-size: 30px;
+    margin-bottom: 15px
+  }
+}
+
 .overview p {
   font-size: 17px;
   line-height: 1.8;
   width: 80%;
   margin: 0 auto 20px;
   color: #989898;
+}
+
+@media (max-width: 992px) {
+  .overview p {
+    width: 100%;
+  }
 }
 
 .overview h4 {
@@ -192,12 +244,25 @@ body {
   margin-bottom: 20px
 }
 
+@media (max-width: 992px) {
+  .featured-work h2 {
+    font-size: 30px;
+    margin-bottom: 15px
+  }
+}
+
 .featured-work p {
   font-size: 17px;
   line-height: 1.6;
   width: 80%;
   margin: 0 auto 20px;
   color: #989898;
+}
+
+@media (max-width: 992px) {
+  .featured-work p {
+    width: 100%;
+  }
 }
 
 .featured-work ul {
@@ -345,12 +410,25 @@ body {
   margin-bottom: 20px
 }
 
+@media (max-width: 992px) {
+  .pricing-table h2 {
+    font-size: 30px;
+    margin-bottom: 15px
+  }
+}
+
 .pricing-table .description {
   font-size: 17px;
   line-height: 1.6;
   width: 80%;
   margin: 0 auto 85px;
   color: #989898;
+}
+
+@media (max-width: 992px) {
+  .pricing-table .description {
+    margin-bottom: 40px
+  }
 }
 
 .pricing-table .card {
@@ -407,6 +485,12 @@ body {
   top: -20px
 }
 
+@media (max-width: 992px) {
+  .pricing-table .card.Coroprate {
+    top: 0
+  }
+}
+
 .pricing-table .card.Coroprate .card-text {
   background-color: #ec1c23;
   color: #fff
@@ -422,11 +506,11 @@ body {
   max-width: 100%
 }
 
-.choose-us .col-6 {
+.choose-us .info {
   padding: 0;
 }
 
-.choose-us .col-6:last-child {
+.choose-us .info:last-child {
   background-color: #08526d;
   color: #fff;
   padding-top: 30px;
@@ -563,3 +647,24 @@ body {
 }
 
 /* end footer */
+/* start copyright */
+.copyright {
+  padding: 20px 0;
+  border-top: 1px solid #83898b
+}
+
+.copyright .rights {
+  color: #83898b
+}
+
+.copyright ul {
+  margin: 0
+}
+
+.copyright ul li {
+  display: inline-block;
+  margin-left: 20px;
+  color: #83898b
+}
+
+/* end copyright */
