@@ -132,6 +132,12 @@ second color : #ec1c23
   background-size: cover;
 }
 
+@media (max-width: 992px) {
+  .carousel-item {
+    margin-right: 0
+  }
+}
+
 .slider .carousel-one {
   background-image: url("../images/slider/01.jpg");
 }
@@ -373,10 +379,6 @@ second color : #ec1c23
 .testimonials .container {
   position: relative;
   z-index: 20
-}
-
-@media (max-width: 768px) {
-  .testimonials
 }
 
 .testimonials .carousel-caption {
