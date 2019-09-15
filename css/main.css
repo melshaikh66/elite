@@ -75,7 +75,7 @@ second color : #ec1c23
 .slider .carousel-inner {
   display: flex;
   align-items: center;
-  justify-content: left
+  justify-content: left;
 }
 
 @media (max-width: 768px) {
@@ -364,6 +364,7 @@ second color : #ec1c23
   background-size: cover;
   position: relative;
   background-image: url("../images/testimonials/001.jpg");
+  min-height: 500px
 }
 
 .testimonials .overlay {
@@ -378,12 +379,22 @@ second color : #ec1c23
 
 .testimonials .container {
   position: relative;
-  z-index: 20
+  z-index: 20;
+  height: 100%
+}
+
+.testimonials .bd-example {
+  height: 100%
+}
+
+.testimonials .carousel-item {
+  height: 100%
 }
 
 .testimonials .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
+  height: 100%
 }
 
 .testimonials .carousel-caption img {

@@ -3,7 +3,11 @@ $(function() {
   var winH = $(window).height(),
     upperH = $(".upper-bar").innerHeight(),
     navH = $(".navbar").innerHeight();
-  $(".slider, .carousel-item").height(winH - (upperH + navH));
+  if (winH >= 650) {
+    $(".slider, .carousel-item").height(winH - (upperH + navH));
+  } else {
+    $(".slider, .carousel-item").height(winH);
+  }
   //featured work shuffle
   $(".featured-work ul li").on("click", function() {
     $(this).addClass("active").siblings().removeClass("active");
